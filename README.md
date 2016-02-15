@@ -10,6 +10,9 @@
 
 4. Now you can create your first app with Shipped. Compose your application by giving it a name (we recommend `sample`), and selecting a language to work with (this example uses `ExpressJS` and a repository named `expressjs`).
    ![Compose Application](artifacts/03.compose.png)
+   ![Compose Application](artifacts/03.1expressbuildpack.png)
+   ![Service Name](artifacts/03.2expressjsservice.png)
+   
 
 5. After you click "Build Project" you should be prompted to bootstrap your local environment. The first command downloads and installs the Shipped CLI. If you already have that installed, then copy the second command and prepare to paste it into your `Terminal` or command-line window.
    ![Bootstrap Command](artifacts/04.bootstrap command.png)
