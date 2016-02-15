@@ -19,7 +19,8 @@
     *Note*: Shipped cli install also installs Vagrant and Virtualbox as dependency. On slow network like shared wifi on conferences, to skip installing large vagrant and Virtualbox installer file set following environment variables before running first command.
     ```
     On Mac/Linux >> export SHIPPED_VM=none
-    On Windows  >> SET export SHIPPED_VM=none
+    On Windows  >> 
+    powershell -command "& {(New-Object Net.WebClient).DownloadFile('http://shipped-api.tx3.shipped-cisco.com//cli/static/shipped-setup.bat', 'shipped-setup.bat')}; cmd /c '.\shipped-setup.bat --vm none'"
     ```  
      If you already have Shipped CLI installed, then copy the second command and prepare to paste it into your `Terminal` or command-line window.
    ![Bootstrap Command](artifacts/04.bootstrap command.png)
