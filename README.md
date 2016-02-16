@@ -24,6 +24,7 @@
     ```  
      If you already have Shipped CLI installed, then copy the second command and prepare to paste it into your `Terminal` or command-line window.
    ![Bootstrap Command](artifacts/04.bootstrap command.png)
+   ** If trouble installing CLI please contact Shipped team member (Nick) to allocate an IP of Cloud hosted Sanbox VM. These VMs have preinstalled shipped-cli and can be accessed in web browser http://ip:31000  and next step can be executed directly on cloud VM, skipping this step on laptop**
 
 6. When you paste the command into your `Terminal`, please add the argument `--fast` for the purposes of this walkthrough and press your `<Enter>` key.
    ![Bootstrap Execute](artifacts/05.bootstrap execute.png)
@@ -49,7 +50,7 @@
 12. You can enable automatic deployments to an environment by in the `Settings` page.
     ![Enable automatic deployment](artifacts/11.auto deploy.png)
 
-13. URI to access your service is displayed as 
+13. URI to access your service is displayed as
     ![Discover URI](artifacts/12.0shipped-deploy.png)
 
     Alternative (Skip this step, above link works): To find the URI for your deployed build, you'll need to execute this command in your `Terminal`:
