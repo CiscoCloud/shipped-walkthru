@@ -19,7 +19,7 @@
     *Note*: Shipped cli install also installs Vagrant and Virtualbox as dependency. On slow network like shared wifi on conferences, to skip installing large vagrant and Virtualbox installer file set following environment variables before running first command.
     ```
     On Mac/Linux >> export SHIPPED_VM=none
-    On Windows  >> 
+    On Windows  >>
     powershell -command "& {(New-Object Net.WebClient).DownloadFile('http://shipped-api.tx3.shipped-cisco.com//cli/static/shipped-setup.bat', 'shipped-setup.bat')}; cmd /c '.\shipped-setup.bat --vm none'"
     ```  
      If you already have Shipped CLI installed, then copy the second command and prepare to paste it into your `Terminal` or command-line window.
@@ -49,7 +49,10 @@
 12. You can enable automatic deployments to an environment by in the `Settings` page.
     ![Enable automatic deployment](artifacts/11.auto deploy.png)
 
-13. To find the URI for your deployed build, you'll need to execute this command in your `Terminal`:
+13. URI to access your service is displayed as 
+    ![Discover URI](artifacts/12.0shipped-deploy.png)
+
+    Alternative (Skip this step, above link works): To find the URI for your deployed build, you'll need to execute this command in your `Terminal`:
 
     ```
     shipped release getall %sample %stage
